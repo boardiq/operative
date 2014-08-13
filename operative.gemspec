@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Operative::VERSION
   spec.authors       = ["JGW Maxwell"]
   spec.email         = ["tech@boardintelligence.co.uk"]
-  spec.summary       = %q{Operative is an out-of-bound processor for tasks.}
-  spec.description   = %q{Operative is an out-of-bound processor for tasks.}
+  spec.summary       = %q{Operative is an out-of-band processor for tasks.}
+  spec.description   = %q{Operative is an out-of-band processor for tasks.}
   spec.homepage      = "http://www.boardintelligence.co.uk"
   spec.license       = "MIT"
 
@@ -22,4 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "codeclimate-test-reporter"
+
+  spec.add_dependency "celluloid"
+  spec.add_dependency "activesupport"
 end
