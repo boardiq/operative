@@ -3,7 +3,6 @@ rvm:
   - 2.0.0
   - 2.1.0
   - jruby-19mode
-  - jruby-head
 jdk:
   - oraclejdk7
   - openjdk7
@@ -17,7 +16,5 @@ matrix:
     - rvm: 2.0.0
       jdk: openjdk6
     - rvm: 2.1.0
-      jdk: openjdk6
-    - rvm: jruby-head
       jdk: openjdk6
 cache: bundler
