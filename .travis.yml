@@ -35,3 +35,8 @@ cache: bundler
 addons:
   code_climate:
     repo_token: cd9b7a782fd5253216d0558f57aa6c6d963dbcd3c177193eb5fd73f025fc2f85
+
+
+script:
+  - mkdir tmp
+  - bundle exec rake
