@@ -3,19 +3,33 @@ rvm:
   - 2.0.0
   - 2.1.0
   - jruby-19mode
+  - rbx-2.2.10
 jdk:
   - oraclejdk7
+  - oraclejdk8
   - openjdk7
   - openjdk6
 matrix:
+  allow_failures:
+    - rvm: rbx-2.2.10
   exclude:
+    - rvm: 2.0.0
+      jdk: oraclejdk8
+    - rvm: 2.1.0
+      jdk: oraclejdk8
+    - rvm: rbx-2.2.10
+      jdk: oraclejdk8
     - rvm: 2.0.0
       jdk: openjdk7
     - rvm: 2.1.0
+      jdk: openjdk7
+    - rvm: rbx-2.2.10
       jdk: openjdk7
     - rvm: 2.0.0
       jdk: openjdk6
     - rvm: 2.1.0
+      jdk: openjdk6
+    - rvm: rbx-2.2.10
       jdk: openjdk6
 cache: bundler
 addons:
