@@ -18,3 +18,4 @@ matrix:
     - rvm: 2.1.0
       jdk: openjdk6
 cache: bundler
+env: CODECLIMATE_REPO_TOKEN=cd9b7a782fd5253216d0558f57aa6c6d963dbcd3c177193eb5fd73f025fc2f85
