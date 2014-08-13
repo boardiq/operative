@@ -1,5 +1,7 @@
 # operative
 
+[![Build Status](https://travis-ci.org/boardiq/operative.svg?branch=master)](https://travis-ci.org/boardiq/operative) [![Code Climate](https://codeclimate.com/github/boardiq/operative/badges/gpa.svg)](https://codeclimate.com/github/boardiq/operative) [![Test Coverage](https://codeclimate.com/github/boardiq/operative/badges/coverage.svg)](https://codeclimate.com/github/boardiq/operative)
+
 Out-of-band, in-process task processing for Ruby.
 
 ## Installation
